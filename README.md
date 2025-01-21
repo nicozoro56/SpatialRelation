@@ -56,6 +56,6 @@ rentissage des relations spatiales et resort la matrice de confusion des prédic
 ![screenshot](image_git/ViT.PNG)
 ![screenshot](image_git/ViTM.PNG)
 
-##Test sur tout les prédicats
+###Test sur tout les prédicats
 Plusieurs problèmes apparaissent dès que nous introduisont de la porfondeur dans la images et en sachant que le dataset n'est pas forcément "parfait", nous obtenons des problèmes d'apprentissages .
 ![screenshot](image_git/9predicates.PNG)
