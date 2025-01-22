@@ -11,10 +11,10 @@ Pré-traitement des images avec réduction à 4 relations spatiales "en haut","e
 
 ![screenshot](images_git/bbox.JPG)
 
-3. implémentation du document
+2. implémentation du document
 implémentation du document avec vggNET 
 
-4. Entrainement d'un MLP
+3. Entrainement d'un MLP
 Calcul de prédiction des relatins spatiales directionnelles en passant directement par le MLP
 
 
