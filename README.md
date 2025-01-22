@@ -51,7 +51,7 @@ test d'implémentation du document avec 2 autres modèles en plus (vggNET,squeez
 
 **Description** : Ce notebook utilise ViT comme structure pour l'apprentissage des relations spatiales et resort la matrice de confusion des prédicats ainsi que les cartes de chaleurs sur les relations spatiales (via EigenCAM).
 
-**Résultats** :\n
+**Résultats** :
 
 ![screenshot](images_git/ViT.PNG)
 ![screenshot](images_git/ViTM.PNG)
@@ -59,5 +59,5 @@ test d'implémentation du document avec 2 autres modèles en plus (vggNET,squeez
 **Test sur tout les prédicats**
 Plusieurs problèmes apparaissent dès que nous introduisont de la porfondeur dans la images et en sachant que le dataset n'est pas forcément "parfait", nous obtenons des problèmes d'apprentissages .
 ![screenshot](images_git/9predicates.PNG)
-Ce test est présent dans le fichier original avec les 3 modeles présent sous le nom: All_three.ipybn
+Ce test est présent dans le fichier original avec les 3 modeles présent sous le nom: **All_three.ipybn**
 
