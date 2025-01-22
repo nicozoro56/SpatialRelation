@@ -3,12 +3,12 @@ Identifying Spatial Relations in Images using Convolutional Neural Networks
 ## Description du projet 
 Ce projet est une implémentation du texte ci dessous: (https://arxiv.org/pdf/1901.08746) pour modéliser et prédire les relations spatiales entre objets dans des images
 
-![screenshot](image_git/paper.JPG)
+![screenshot](images_git/paper.JPG)
 
 ## Pipeline
 1. Pré-traitement
 Pré-traitement des images avec réduction à 4 relations spatiales "en haut","en bas","à droite","à gauche"
-![screenshot](image_git/bbox.JPG)
+![screenshot](images_git/bbox.JPG)
 
 2. implémentation du document
 implémentation du document avec vggNET 
@@ -17,7 +17,7 @@ implémentation du document avec vggNET
 Calcul de prédiction des relatins spatiales directionnelles en passant directement par le MLP
 
 
-![screenshot](image_git/pipeline.png)
+![screenshot](images_git/pipeline.png)
 ### Notre cas
 test d'implémentation du document avec 2 autres modèles en plus (vggNET,squeezeNET et ViT)
 
@@ -32,32 +32,31 @@ test d'implémentation du document avec 2 autres modèles en plus (vggNET,squeez
 **Description** : Ce notebook utilise vggNet comme structure pour l'apprentissage des relations spatiales et resort la matrice de confusion des prédicats ainsi que les cartes de chaleurs sur les relations spatiales.
 
 **Résultats** :
-![screenshot](image_git/vgg.PNG)
-![screenshot](image_git/vggM.PNG)
+![screenshot](images_git/vgg.PNG)
+![screenshot](images_git/vggM.PNG)
 
 ### SqueezeNET
 
 **Fichier** : squeezeNET.ipybn
 
-**Description** : Ce notebook utilise squeezeNET comme structure pour l'app
-rentissage des relations spatiales et resort la matrice de confusion des prédicats ainsi que les cartes de chaleurs sur les relations spatiales.
+**Description** : Ce notebook utilise squeezeNET comme structure pour l'apprentissage des relations spatiales et resort la matrice de confusion des prédicats ainsi que les cartes de chaleurs sur les relations spatiales.
 
 **Résultats** : 
-![screenshot](image_git/squeeze.PNG)
-![screenshot](image_git/squeezeM.PNG)
+![screenshot](images_git/squeeze.PNG)
+![screenshot](images_git/squeezeM.PNG)
 
 ### ViT
 
 **Fichier** : ViT.ipybn
 
-**Description** : Ce notebook utilise ViT comme structure pour l'apprentissage des relations spatiales et resort la matrice de confusion des prédicats ainsi que les cartes de chaleurs sur les relations spatiales.
+**Description** : Ce notebook utilise ViT comme structure pour l'apprentissage des relations spatiales et resort la matrice de confusion des prédicats ainsi que les cartes de chaleurs sur les relations spatiales (via EigenCAM).
 
 **Résultats** :
-![screenshot](image_git/ViT.PNG)
-![screenshot](image_git/ViTM.PNG)
+![screenshot](images_git/ViT.PNG)
+![screenshot](images_git/ViTM.PNG)
 
 ###Test sur tout les prédicats
 Plusieurs problèmes apparaissent dès que nous introduisont de la porfondeur dans la images et en sachant que le dataset n'est pas forcément "parfait", nous obtenons des problèmes d'apprentissages .
-![screenshot](image_git/9predicates.PNG)
+![screenshot](images_git/9predicates.PNG)
 Ce test est présent dans le fichier original avec les 3 modeles présent sous le nom: All_three.ipybn
 
