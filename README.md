@@ -22,6 +22,8 @@ Calcul de prédiction des relatins spatiales directionnelles en passant directem
 ### Notre cas
 test d'implémentation du document avec 2 autres modèles en plus (vggNET,squeezeNET et ViT)
 
+![screenshot](images_git/model_image.png)
+
 ## Notebooks
 **Remarque** : Les chemins vers les dossiers, images et modèles dans les notebooks doivent être adaptés en fonction de votre configuration locale pour un usage correct. ce sont des notebook fait kaggle, Car kaggle fourni plus de temps d'utilisation de GPU que google, si vous voulez l'adaptez, veuillez changez annotations_path et extracted_images_path dans la racine de votre projet (si vous lancez sur kaggle, il n'y auras pas de problème si le ficher se trouve en racine du projet)
 
