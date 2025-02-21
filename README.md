@@ -1,7 +1,7 @@
 # SpatialRelation
 Identifying Spatial Relations in Images using Convolutional Neural Networks
 ## Description du projet 
-Ce projet est une implémentation du texte ci dessous: (https://arxiv.org/pdf/1901.08746) pour modéliser et prédire les relations spatiales entre objets dans des images
+Ce projet est une implémentation du texte ci dessous: (https://arxiv.org/pdf/1706.04215) pour modéliser et prédire les relations spatiales entre objets dans des images
 
 ![screenshot](images_git/paper.JPG)
 
